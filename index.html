@@ -15,6 +15,20 @@
         </div>
         <div id="content">
             <h2>Recipes</h2>
+            <a href="#" class="button" onclick="openAddRecipeForm()" id="addRecipe">Add Recipe</a>
+
+            <div id="addRecipeForm">
+                <form>
+                    <label for="recipeName">Recipe Name</label></br>
+                    <input type="text" id="recipeName" name="recipeName" placeholder="Name"></br>
+                    <label for="ingredients">Ingredients</label></br>
+                    <textarea name="ingredients" id="ingredients" placeholder="Ingredients" cols="30" rows="10"></textarea></br>
+                    <label for="description">Description</label></br>
+                    <textarea name="description" id="description" placeholder="Description" cols="30" rows="10"></textarea></br>
+                    <button type="submit">Save Recipe</button>
+                </form>
+            </div>
+
         </div>
     </div>
 </body>
